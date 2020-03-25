@@ -1,0 +1,12 @@
+<script>
+    $(document).ready(function(){
+        $('#identAbertura').change(function(){
+            $('.btn').removeClass().addClass('btn').addClass('btn-default');
+            $(this).parent().removeClass("btn-default").addClass("btn-success");
+        });
+        $('#identMov').change(function(){
+            $('.btn').removeClass().addClass('btn').addClass('btn-default');
+            $(this).parent().removeClass("btn-default").addClass("btn-success");
+        });
+    });
+</script>
