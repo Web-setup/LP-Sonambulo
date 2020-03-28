@@ -70,6 +70,6 @@ a:hover {text-decoration: none;
     sans-serif;font-weight: bold;color: #ffffff ;text-align:center; margin-bottom:5px;}
     #riscoZero{}
 .svg {display: inline-block;
-width: 50px;
+font-size: inherit; overflow: visible; vertical-align:-.125; width: 50px;
 }
 
